@@ -13,7 +13,7 @@ It's simple really, all it does is replace the player model and texture with tha
 Install fabric first, then make sure fabric api, entity texture features, and entity model features are installed.  
 Once you're done, you can put this pack into the resourcepacks folder and enable it!  
 
-**Temporary:** Make sure all your skin layers are disabled in the skin customization settings  
+**Temporary:** Make sure your cape is disabled in skin customization settings  
 
 ## Compatibility
 Currently incompatible with every other player related mod, for obvious reasons, these mods only work for the player, not a pig.  
