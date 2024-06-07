@@ -1,0 +1,162 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "textures/entity/pig/pig.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [3, -6, 5],
+			"textureSize": [64, 32],
+			"boxes": [
+				{"coordinates": [-5, 0, -7, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "left_sleeve",
+			"id": "left_sleeve",
+			"invertAxis": "xy",
+			"translate": [3, -6, 5],
+			"textureSize": [0, 0],
+			"boxes": [
+				{"coordinates": [-5, 0, -7, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -13, -2],
+			"textureSize": [64, 32],
+			"boxes": [
+				{"coordinates": [-5, 7, -5, 10, 16, 8], "textureOffset": [28, 8]}
+			],
+			"animations": [
+				{
+					"head.ty": "11",
+					"head.tz": "-8",
+					"head.rx": "torad(head_pitch - 10)"
+				},
+				{
+					"body.ty": "11",
+					"body.rx": "torad(90)"
+				},
+				{
+					"left_arm.ty": "18",
+					"left_arm.tz": "-7",
+					"left_arm.tx": "3",
+					"left_arm.rx": "right_leg.rx"
+				},
+				{
+					"right_arm.ty": "18",
+					"right_arm.tz": "-7",
+					"right_arm.tx": "-3",
+					"right_arm.rx": "left_leg.rx"
+				},
+				{
+					"left_leg.ty": "18",
+					"left_leg.tz": "5",
+					"left_leg.tx": "3"
+				},
+				{
+					"right_leg.ty": "18",
+					"right_leg.tz": "5",
+					"right_leg.tx": "-3"
+				}
+			]
+		},
+		{
+			"part": "jacket",
+			"id": "jacket",
+			"invertAxis": "xy",
+			"translate": [0, -13, -2],
+			"textureSize": [0, 0],
+			"boxes": [
+				{"coordinates": [-5, 7, -5, 10, 16, 8], "textureOffset": [28, 8]}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-3, -6, 5],
+			"textureSize": [64, 32],
+			"boxes": [
+				{"coordinates": [1, 0, -7, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "right_sleeve",
+			"id": "right_sleeve",
+			"invertAxis": "xy",
+			"translate": [-3, -6, 5],
+			"textureSize": [0, 0],
+			"boxes": [
+				{"coordinates": [1, 0, -7, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [3, -6, -7],
+			"textureSize": [64, 32],
+			"boxes": [
+				{"coordinates": [-5, 0, 5, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "left_pants",
+			"id": "left_pants",
+			"invertAxis": "xy",
+			"translate": [3, -6, -7],
+			"textureSize": [0, 0],
+			"boxes": [
+				{"coordinates": [-5, 0, 5, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-3, -6, -7],
+			"textureSize": [64, 32],
+			"boxes": [
+				{"coordinates": [1, 0, 5, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "right_pants",
+			"id": "right_pants",
+			"invertAxis": "xy",
+			"translate": [-3, -6, -7],
+			"textureSize": [0, 0],
+			"boxes": [
+				{"coordinates": [1, 0, 5, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -12, 6],
+			"textureSize": [64, 32],
+			"boxes": [
+				{"coordinates": [-4, 8, -14, 8, 8, 8], "textureOffset": [0, 0]},
+				{"coordinates": [-2, 9, -15, 4, 3, 1], "textureOffset": [16, 16]}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -12, 6],
+			"textureSize": [0, 0],
+			"boxes": [
+				{"coordinates": [-4, 8, -14, 8, 8, 8], "textureOffset": [0, 0]},
+				{"coordinates": [-2, 9, -15, 4, 3, 1], "textureOffset": [16, 16]}
+			]
+		}
+	]
+}

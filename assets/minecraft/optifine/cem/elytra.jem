@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-5, -24, 0],
+			"textureSize": [64, 32],
+			"boxes": [
+				{"coordinates": [-5, 4, 0, 10, 20, 2], "textureOffset": [22, 0], "sizeAdd": 1}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [5, -24, 0],
+			"textureSize": [64, 32],
+			"boxes": [
+				{"coordinates": [-5, 4, 0, 10, 20, 2], "textureOffset": [22, 0], "sizeAdd": 1}
+			],
+			"animations": [
+				{
+					"left_wing.rx": "torad(90)",
+					"left_wing.rz": "-(left_wing.rz)",
+					"left_wing.tx": "0",
+					"left_wing.ty": "10",
+					"left_wing.tz": "-7"
+				},
+				{
+					"right_wing.rx": "torad(90)",
+					"right_wing.rz": "-(right_wing.rz)",
+					"right_wing.tx": "0",
+					"right_wing.ty": "10",
+					"right_wing.tz": "-7"
+				}
+			]
+		}
+	]
+}

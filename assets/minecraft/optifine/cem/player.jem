@@ -14,6 +14,16 @@
 			]
 		},
 		{
+			"part": "left_sleeve",
+			"id": "left_sleeve",
+			"invertAxis": "xy",
+			"translate": [3, -6, 5],
+			"textureSize": [0, 0],
+			"boxes": [
+				{"coordinates": [-5, 0, -7, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
 			"part": "body",
 			"id": "body",
 			"invertAxis": "xy",
@@ -35,12 +45,18 @@
 				{
 					"left_arm.ty": "18",
 					"left_arm.tz": "-7",
-					"left_arm.tx": "3"
+					"left_arm.tx": "3",
+					"left_sleeve.ty": "18",
+					"left_sleeve.tz": "-7",
+					"left_sleeve.tx": "3"
 				},
 				{
 					"right_arm.ty": "18",
 					"right_arm.tz": "-7",
-					"right_arm.tx": "-3"
+					"right_arm.tx": "-3",
+					"right_sleeve.ty": "18",
+					"right_sleeve.tz": "-7",
+					"right_sleeve.tx": "-3"
 				},
 				{
 					"left_leg.ty": "18",
@@ -55,11 +71,31 @@
 			]
 		},
 		{
+			"part": "jacket",
+			"id": "jacket",
+			"invertAxis": "xy",
+			"translate": [0, -13, -2],
+			"textureSize": [0, 0],
+			"boxes": [
+				{"coordinates": [-5, 7, -5, 10, 16, 8], "textureOffset": [28, 8]}
+			]
+		},
+		{
 			"part": "right_arm",
 			"id": "right_arm",
 			"invertAxis": "xy",
 			"translate": [-3, -6, 5],
 			"textureSize": [64, 32],
+			"boxes": [
+				{"coordinates": [1, 0, -7, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "right_sleeve",
+			"id": "right_sleeve",
+			"invertAxis": "xy",
+			"translate": [-3, -6, 5],
+			"textureSize": [0, 0],
 			"boxes": [
 				{"coordinates": [1, 0, -7, 4, 6, 4], "textureOffset": [0, 16]}
 			]
@@ -75,6 +111,16 @@
 			]
 		},
 		{
+			"part": "left_pants",
+			"id": "left_pants",
+			"invertAxis": "xy",
+			"translate": [3, -6, -7],
+			"textureSize": [0, 0],
+			"boxes": [
+				{"coordinates": [-5, 0, 5, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
 			"part": "right_leg",
 			"id": "right_leg",
 			"invertAxis": "xy",
@@ -85,11 +131,32 @@
 			]
 		},
 		{
+			"part": "right_pants",
+			"id": "right_pants",
+			"invertAxis": "xy",
+			"translate": [-3, -6, -7],
+			"textureSize": [0, 0],
+			"boxes": [
+				{"coordinates": [1, 0, 5, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
 			"part": "head",
 			"id": "head",
 			"invertAxis": "xy",
 			"translate": [0, -12, 6],
 			"textureSize": [64, 32],
+			"boxes": [
+				{"coordinates": [-4, 8, -14, 8, 8, 8], "textureOffset": [0, 0]},
+				{"coordinates": [-2, 9, -15, 4, 3, 1], "textureOffset": [16, 16]}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -12, 6],
+			"textureSize": [0, 0],
 			"boxes": [
 				{"coordinates": [-4, 8, -14, 8, 8, 8], "textureOffset": [0, 0]},
 				{"coordinates": [-2, 9, -15, 4, 3, 1], "textureOffset": [16, 16]}

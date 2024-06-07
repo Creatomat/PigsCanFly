@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "cloak",
+			"id": "cloak",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"textureSize": [64, 32],
+			"boxes": [
+				{"coordinates": [-5, 8, -1, 10, 16, 1], "textureOffset": [0, 0]}
+			],
+			"animations": [
+				{
+					"cloak.ty": "10",
+					"cloak.tz": "10",
+					"cloak.rx": "torad(-90) - torad(limb_speed*3.5)"
+				}
+			]
+		}
+	]
+}
